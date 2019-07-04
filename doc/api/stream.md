@@ -505,7 +505,7 @@ the status of the `highWaterMark`.
 
 ##### writable.writableFinished
 <!-- YAML
-added: REPLACEME
+added: v12.6.0
 -->
 
 * {boolean}
@@ -1318,8 +1318,6 @@ changes:
     pr-url: https://github.com/nodejs/node/pull/26989
     description: Symbol.asyncIterator support is no longer experimental.
 -->
-
-> Stability: 2 - Stable
 
 * Returns: {AsyncIterator} to fully consume the stream.
 
